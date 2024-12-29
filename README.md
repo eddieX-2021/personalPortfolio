@@ -62,5 +62,6 @@ To run this project locally, follow these steps:
 
 Once the server is running, open your browser and navigate to `http://localhost:3000` to view the portfolio. You can explore different sections, view projects, and contact me through the form.
 
-try out my website : 
+try out my website : https://eddiex-2021.github.io/personalPortfolio/
+
 Thank you for visiting my portfolio!
