@@ -1,0 +1,202 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--background);
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.profile-details {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-details-name {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+
+.profile-details-role {
+    font-size: 40px;
+    font-family: "cursive";
+    margin-bottom: 20px;
+    color: var(--body-text);
+}
+
+.profile-role-tagline {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: var(--body-text);
+}
+
+.profile-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profile-options .btn {
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.profile-options .primary-btn {
+    background-color: var(--primary-btn-bg);
+    color: var(--primary-btn-text);
+}
+
+.profile-options .btn a {
+    color: var(--secondary-btn-hover-text);
+}
+
+.profile-options a:hover {
+    text-decoration: none;
+}
+
+.profile-options .primary-btn:hover {
+    background-color: var(--primary-btn-hover);
+}
+
+.profile-options .highlighted-btn {
+    background-color: transparent;
+    color: var(--secondary-btn-text);
+    border: 2px solid var(--secondary-btn-border);
+}
+
+.profile-options .highlighted-btn:hover {
+    background-color: var(--secondary-btn-hover-bg);
+    color: var(--secondary-btn-hover-text);
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--primary-btn-bg);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    border-radius: 50%;
+    background-image: url("../../assets/Home/body.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.colz {
+    justify-content: center;
+}
+
+.colz .colz-icon i {
+    color: var(--body-text);
+    padding: 8px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.colz .cols-icon i:hover {
+    transform: scale(1.5);
+    color: var(--icon-hover);
+}
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+    .profile-picture {
+        margin: 0 0px 0 80px;
+    }
+
+    .profile-details-name {
+        font-size: 20px;
+    }
+
+    .profile-details-role .primary-text {
+        font: 12px;
+    }
+
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .profile-picture {
+        margin: 0 0 0 4px;
+        height: 320px;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .profile-picture {
+        margin: 0 !important;
+    }
+
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .profile-options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .proflie-details {
+        margin: 25px 0 0;
+    }
+
+    .profile-options .highlighted-btn {
+        margin: 0 !important;
+    }
+
+    .profile-details-name,
+    .profile-details-role {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .profile-picture {
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+
+    .proflie-details {
+        width: 95%;
+    }
+}
