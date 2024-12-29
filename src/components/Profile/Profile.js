@@ -61,7 +61,7 @@ export default function Profile() {
                     <div className="profile-options">
                         <a href="#contact">  <button className="btn primary-btn"
                         >Hire Me </button></a>
-                        <a href="Resume- Hanjun Xiao.pdf" download="Resume- Hanjun Xiao.pdf">
+                        <a href="Resume-Hanjun Xiao.pdf" download="Resume-Hanjun Xiao.pdf">
                             <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>
