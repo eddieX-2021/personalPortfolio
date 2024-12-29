@@ -143,7 +143,7 @@ export default function Project() {
                     <div className="text-container">
                         <h5>
                             <a
-                                href="https://github.com/orgs/uva-cs3140-fa24/teams/hw6-pym4ns-uyh9nu-mgn3uh"
+                                href="https://github.com/eddieX-2021/personalPortfolio"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
