@@ -26,8 +26,6 @@ Welcome to Eddie's Portfolio! This is a personal portfolio website showcasing my
   - Font Awesome for icons
 - **Backend**: 
   - EmailJS for handling email submissions
-- **Fonts**: 
-  - Poppins font family for a modern look
 
 ## Installation
 
@@ -64,12 +62,5 @@ To run this project locally, follow these steps:
 
 Once the server is running, open your browser and navigate to `http://localhost:3000` to view the portfolio. You can explore different sections, view projects, and contact me through the form.
 
-## Contact
-
-For any inquiries or feedback, feel free to reach out:
-
-- **Email**: eddie@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-
+try out my website : 
 Thank you for visiting my portfolio!
