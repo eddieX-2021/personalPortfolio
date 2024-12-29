@@ -1,0 +1,17 @@
+:root {
+  --background: #FDF6EC;
+  --primary-btn-bg: #FF6F00;
+  --primary-btn-text: #FFFFFF;
+  --primary-btn-hover: #E65C00;
+  --secondary-btn-border: #FF6F00;
+  --secondary-btn-text: #FF6F00;
+  --secondary-btn-hover-bg: #FF6F00;
+  --secondary-btn-hover-text: #FFFFFF;
+  --heading-color: #1C1C1E;
+  --body-text: #333333;
+  --highlight-text: #32FF7E;
+  --link-color: #00D1FF;
+  --link-hover: #FF6F00;
+  --divider-color: #F48C06;
+  --icon-hover: #FF6F00;
+}
