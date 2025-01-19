@@ -160,6 +160,48 @@ export default function Project() {
                         </ul>
                     </div>
                 </div>
+
+                <div className="project-item">
+                    <img src={require("../../assets/Project/ROI.png")} alt="ROI Analysis" />
+                    <div className="text-container">
+                        <h5>
+                            <a
+                                href="https://github.com/huygnguyen04/Early-Career-Salary-Prediction-and-ROI-Analysis"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Early-Career-Salary-Prediction-and-ROI-Analysis
+                            </a>
+                        </h5>
+                        <p> Showcased research and analytical skills on a data-driven project: </p>
+                        <ul>
+                            <li>Developed a predictive model using Random Forest regression for early career salary predictions.</li>
+                            <li>Performed ROI calculations to rank colleges and states based on financial value.</li>
+                            <li>Visualized trends and insights using ggplot2 to support data-driven decisions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="project-item">
+                    <img src={require("../../assets/Project/shiny.png")} alt="Shiny App" />
+                    <div className="text-container">
+                        <h5>
+                            <a
+                                href="https://huynguyen1211.shinyapps.io/APMA3150-ExtraCreditProject/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Linear Regression App
+                            </a>
+                        </h5>
+                        <p> Visualizing and Demonstrating Linear Regression </p>
+                        <ul>
+                            <li>Developed a Shiny app in R to illustrate the concept of linear regression interactively.</li>
+                            <li>Enabled users to upload any CSV file and select two variables for regression visualization.</li>
+                            <li>Displayed key regression metrics, such as slope, intercept, and R-squared value, alongside the graph.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );
