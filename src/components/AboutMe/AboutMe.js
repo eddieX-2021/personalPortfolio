@@ -8,7 +8,7 @@ export default function AboutMe() {
                 <img src={require("../../assets/AboutMe/handsomeman.jpg")} alt="handsome man" />
                 <div className="about-me-description">
                     <p>
-                        My name is Eddie Xiao. I am a second-year student in the School of Engineering at UVA, planning to double major in Computer Science and Economics.
+                        My name is Eddie Xiao. I am a third-year student in the School of Engineering at UVA, planning to double major in Computer Science and Economics.
                         <br /><br />
                         I am involved in several clubs, including the Mars Robotics Club, Chess Club, Hoos Fly, and the ML Club.
                         <br /><br />

@@ -1,5 +1,6 @@
 import React from "react";
-import Typical from "react-typical";
+import { TypeAnimation } from 'react-type-animation';
+
 import "./Profile.css";
 
 export default function Profile() {
@@ -36,21 +37,21 @@ export default function Profile() {
                         <span className="primary-text">
                             {" "}
                             <h1>
-                                <Typical
-                                    loop={Infinity}
-                                    steps={[
-                                        "AI/Mechine Learning 🌐",
+                                <TypeAnimation
+                                    sequence={[
+                                        "AI/Machine Learning 🌐",
                                         1000,
                                         "Full stack Developer 💻",
                                         1000,
                                         "Economic Expert 📱",
                                         1000,
-                                        "Pianist and a Master Chef 🔴",
+                                        "Master Chef 🔴",
                                         1000,
-                                        "Eager to Learn 😎",
+                                        "Pianist 😎",
                                         1000,
                                     ]}
-                                />
+                                    repeat={Infinity}
+                                    />
                             </h1>
                         </span>
                         <span className="profile-role-tagline">
@@ -61,9 +62,9 @@ export default function Profile() {
                     <div className="profile-options">
                         <a href="#contact">  <button className="btn primary-btn"
                         >Hire Me </button></a>
-                        <a href="Resume- Hanjun Xiao.pdf" download="Resume- Hanjun Xiao.pdf">
+                        {/* <a href="Resume- Hanjun Xiao.pdf" download="Resume- Hanjun Xiao.pdf">
                             <button className="btn highlighted-btn">Get Resume</button>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className="profile-picture">

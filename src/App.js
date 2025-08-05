@@ -16,8 +16,8 @@ function App() {
       <ToastContainer />
       <Profile />
       <AboutMe />
-      <Project />
       <Experience />
+      <Project />
       <ContactMe />
       <Footer />
     </div>

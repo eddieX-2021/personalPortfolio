@@ -38,7 +38,7 @@ export default function ContactMe() {
             <div className="central-form">
                 <div className="back-form">
                     <div className="img-back">
-                        <h4>Shoot Me a Message Here!</h4>
+                        <h4>Message Me Here!</h4>
                         <img src={require("../../assets/ContactMe/contactBackground.jpg")} alt="image not found" />
                     </div>
                     <form ref={form} onSubmit={submitForm}>

@@ -1,57 +1,71 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 10%;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto 15px;
+  text-align: center;
 }
 
 .footer-content p {
-    color: black;
-    justify-content: center;
+  margin: 4px 0;
+}
+
+.footer-content .footer-updated {
+  color: #666;
+  font-size: 0.9rem;
 }
 
 .contacts {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;       /* space between each contact */
+  flex-wrap: nowrap; /* never wrap to next line */
+  margin-top: 8px;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .contact img {
-    width: 50px;
-    height: 50px;
-    transition: box-shadow 0.5s ease-in-out;
-    border-radius: 20%;
-    margin-right: 10px;
+  width: 24px;     /* smaller icon */
+  height: 24px;
+  margin-right: 6px;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 6px;
 }
 
-.link img:hover {
-    box-shadow: 0 0 20px 10px rgba(206, 224, 243, 0.8);
+.link {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.875rem;
 }
 
-@media only screen and (max-width: 768px) {
-    .contacts {
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-    }
+.link:hover {
+  text-decoration: underline;
+}
 
-    .contact img {
-        width: 35px;
-        height: 35px;
-    }
+.contact img:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .contact img {
+    width: 35px;
+    height: 35px;
+  }
 }
