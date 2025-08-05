@@ -1,28 +1,37 @@
 {
   "files": {
-    "main.css": "/personalPortfolio/static/css/main.c84098d9.css",
-    "main.js": "/personalPortfolio/static/js/main.1c06552d.js",
+    "main.css": "/personalPortfolio/static/css/main.fa7453ca.css",
+    "main.js": "/personalPortfolio/static/js/main.56ee708e.js",
     "static/media/body.jpg": "/personalPortfolio/static/media/body.88acabfd32250fcf4560.jpg",
     "static/media/recipe.png": "/personalPortfolio/static/media/recipe.9a25d413cb3e379b8174.png",
     "static/media/egg.png": "/personalPortfolio/static/media/egg.5df546c3017d0bf6846c.png",
+    "static/media/nao.jpg": "/personalPortfolio/static/media/nao.b7fe7f5d621926a9f42e.jpg",
     "static/media/ROI.png": "/personalPortfolio/static/media/ROI.cef349cded9a6f2c0615.png",
     "static/media/todo.png": "/personalPortfolio/static/media/todo.c3e225c12b3e6cce1ffd.png",
     "static/media/contactBackground.jpg": "/personalPortfolio/static/media/contactBackground.4ae7ff435019b6d994f9.jpg",
+    "static/media/fvdam.png": "/personalPortfolio/static/media/fvdam.abace041a5227d7ceda1.png",
     "static/media/matlab.png": "/personalPortfolio/static/media/matlab.0ab735727cd0fad4b995.png",
     "static/media/handsomeman.jpg": "/personalPortfolio/static/media/handsomeman.eac881ff5797c1e69eef.jpg",
+    "static/media/ShapeShift.png": "/personalPortfolio/static/media/ShapeShift.4b61cdf811391727adde.png",
+    "static/media/sum.webp": "/personalPortfolio/static/media/sum.c468d0fb904f7dd05fc5.webp",
     "static/media/portfolio.png": "/personalPortfolio/static/media/portfolio.d9914f6fe7e36fff9453.png",
     "static/media/shiny.png": "/personalPortfolio/static/media/shiny.04c0d2f181fe981317c8.png",
     "static/media/mlbeginner.png": "/personalPortfolio/static/media/mlbeginner.f69bb9eb2ae5f092d9e3.png",
+    "static/media/Heart.png": "/personalPortfolio/static/media/Heart.d68062057ae15a43276a.png",
+    "static/media/Predit.png": "/personalPortfolio/static/media/Predit.293bcb2516a47bcccf4a.png",
     "static/media/cardisplay.png": "/personalPortfolio/static/media/cardisplay.d571c73f471e77b3525c.png",
     "static/media/restu.png": "/personalPortfolio/static/media/restu.0e0f0dc28e1f368eae90.png",
     "static/media/course.png": "/personalPortfolio/static/media/course.fde054bbbe83299aa076.png",
+    "static/media/Simple.png": "/personalPortfolio/static/media/Simple.e918689c409f830d76f1.png",
+    "static/media/UCLA.png": "/personalPortfolio/static/media/UCLA.e20954ace848def6f10f.png",
+    "static/media/stock.png": "/personalPortfolio/static/media/stock.05ee13cae1a3ab85c730.png",
     "static/media/github.png": "/personalPortfolio/static/media/github.abe880dee4c469326976.png",
     "index.html": "/personalPortfolio/index.html",
-    "main.c84098d9.css.map": "/personalPortfolio/static/css/main.c84098d9.css.map",
-    "main.1c06552d.js.map": "/personalPortfolio/static/js/main.1c06552d.js.map"
+    "main.fa7453ca.css.map": "/personalPortfolio/static/css/main.fa7453ca.css.map",
+    "main.56ee708e.js.map": "/personalPortfolio/static/js/main.56ee708e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c84098d9.css",
-    "static/js/main.1c06552d.js"
+    "static/css/main.fa7453ca.css",
+    "static/js/main.56ee708e.js"
   ]
 }
